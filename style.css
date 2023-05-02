@@ -29,6 +29,7 @@
 .item1 p {
     flex-grow: 1;
     text-align: center;
+    padding-: 20px;
 }
 
 .item2{
@@ -55,6 +56,11 @@
     font-size: 20px;
 }
 
+.item2 i{
+    margin-right: 30px;
+}
+
+
 .item3{
     
     align-items: center;
@@ -74,7 +80,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-grow:1;
+    flex-grow:3;
     background-color: black;
 }
 
