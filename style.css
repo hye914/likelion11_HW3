@@ -1,0 +1,135 @@
+@font-face {
+    font-family: "FontName"; 
+    src: url("/font.ttf"); 
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width:650px;
+    height: 100vh;
+    font-family: "FontName", Arial;
+}
+
+.item1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-bottom:0.5px solid black;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.item1 i {
+    margin-right: 10px;
+}
+
+.item1 p {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.item2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-grow:1;
+    background-color: black;
+    color: white;
+}
+
+.item2 img {
+    display:block;
+    width: 10%;
+    height:50%;
+    border-radius: 50%;
+    margin-left:40px;
+}
+
+.item2 p{
+    display:inline-block;
+    flex-grow: 1;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.item3{
+    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-grow:1;
+    color: white;
+}
+
+.item3 img{
+    width: 100%;
+    height:100%;
+    background-color: black;
+}
+
+.item4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow:1;
+    background-color: black;
+}
+
+.icon{
+    display:inline-block;
+    margin: 0 0 0 15px; 
+    font-size: 25px;
+    margin-left:20px;
+}
+
+.right{
+    display:inline-block;
+    margin-left:430px;
+    font-size: 25px;
+}
+
+
+.item5{
+    flex-grow:0.5;
+    font-size: 17px;
+    background-color: black;
+    color:white;
+}
+
+.item5 p{
+    margin-left: 45px;
+}
+
+.item6{
+    flex-grow:2;
+    background-color: black;
+}
+
+.item7{
+    display: flex;
+
+    flex-grow:2;
+    background-color: black;
+}
+
+.icon7{
+    display: flex;
+    display:inline-block;
+    align-items: center;
+    margin: 30px 0 0  0 ; 
+    margin-left: 40px;
+    margin-right:25px;
+    font-size: 35px;
+    border: 1px solid
+
+}
+
+.item7 img{
+    display:inline-block;
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+}
